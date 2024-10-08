@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>API Landing Page</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #f7f9fb;
+        color: #333;
+        line-height: 1.6;
+        height: 100vh;
+      }
+
+      header {
+        background-color: #4caf50;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      .container {
+        padding: 40px;
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+        color: #4caf50;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        color: #666;
+      }
+
+      .api-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .api-card {
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        text-align: left;
+        transition: transform 0.3s;
+      }
+
+      .api-card:hover {
+        transform: scale(1.05);
+      }
+
+      .api-card h3 {
+        font-size: 1.5rem;
+        color: #333;
+      }
+
+      .api-card p {
+        font-size: 1rem;
+        color: #777;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+      }
+
+      a {
+        color: #4caf50;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My API Hub</h1>
+      <p>Explore a collection of powerful APIs for your applications.</p>
+    </header>
+
+    <div class="container">
+      <h2>Available APIs</h2>
+      <p>Check out the APIs below and click to explore their documentation.</p>
+
+      <div class="api-list">
+        <!-- API 1 -->
+        <div class="api-card">
+          <h3>Authentication API</h3>
+          <p>Authenticate users securely with our robust authentication API.</p>
+          <a href="https://example.com/auth-api" target="_blank"
+            >View Documentation &rarr;</a
+          >
+        </div>
+
+        <!-- API 2 -->
+        <div class="api-card">
+          <h3>Data Fetching API</h3>
+          <p>
+            Access real-time data with our flexible and reliable API service.
+          </p>
+          <a href="https://example.com/data-api" target="_blank"
+            >View Documentation &rarr;</a
+          >
+        </div>
+
+        <!-- API 3 -->
+        <div class="api-card">
+          <h3>Payment API</h3>
+          <p>
+            Integrate seamless payment options using our secure Payment API.
+          </p>
+          <a href="https://example.com/payment-api" target="_blank"
+            >View Documentation &rarr;</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>
+        &copy; 2024 My API Hub. Powered by
+        <a href="https://github.com/yourusername">GitHub Pages</a>.
+      </p>
+    </footer>
+  </body>
+</html>
